@@ -49,16 +49,19 @@
             </ul>
           </div>
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-6">
               <div class="clearfix weather-temperature">
                 <img src="" alt="Clear" id="icon" class="float-left" />
                 <div class="class float-left">
                   <strong id="temperature">12</strong
-                  ><span class="units">℃ | <a href="#"> ℉</a></span>
+                  ><span class="units">
+                    <a href="#" id="celsius-link" class="active"> ℃ </a> |
+                    <a href="#" id="fahrenheit-link"> ℉</a>
+                  </span>
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-6">
               <ul>
                 <li>Humidity: <span id="humidity"></span>%</li>
                 <li>Wind: <span id="wind"> </span> km/h</li>
